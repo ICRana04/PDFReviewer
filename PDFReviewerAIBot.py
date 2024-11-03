@@ -12,7 +12,7 @@ generativeai.configure(api_key=os.environ['GEMINI_API_KEY'])
 
 # Function definition for generating the response
 def get_gemini_response(input_prompt, pdf_text):
-    model = generativeai.GenerativeModel('gemini-pro-vision')
+    model = generativeai.GenerativeModel('gemini-1.5-pro')
 
     if input_prompt == "":
         response = model.generate_content([input_prompt, pdf_text])
