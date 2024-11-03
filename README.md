@@ -1,2 +1,3 @@
-# PDFReviewer
-An Google Generative AI based application to use the open Gemini LLM model to get a response based on a customized input. The script helps load a PDF and review it based on the input prompt given to the model. The idea is to provide guidelines on the review as input and then use AI as a Reviewer for the doc. Responses are displayed as text output.
+# PDFReviewer_v1.0 - Use AI as a Reviewer for a document. 
+A Google Generative AI-based Python application that uses the Streamlit library and the open Gemini LLM model to get a response based on a customized input. The script helps you load a PDF and get it reviewed by AI based on the input prompt criteria provided to the model as inputs. The objective is to develop an AI Document Reviewer that reviews and provides instructions on the corrections that are required on the document. Responses are displayed as text output.
+Future Enhancement: The code can be enhanced to take inputs from as JSON file, that would server as the input prompt and the PDF file as the source/input file to review
